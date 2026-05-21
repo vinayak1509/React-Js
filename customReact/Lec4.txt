@@ -1,0 +1,20 @@
+ * we created a custom react element :
+ for this , we created a react element... 
+ we created this using our own syntax, gave some properties
+
+ * this was displayed using the customRender method : displaying was 
+    easy .. root was selected and reactElement was appended on the root
+
+* it was expected in the customRender method that whenever an element is passed, it 
+is passed in the same syntax 
+
+* Then , in main.jsx the App was just a method so we can create our own method and use that.
+we tried using our own react element there, but was not able to do so, this is 
+because we should give the element in strictly specified syntax by react which is expected by react
+
+*to fix this we used a mehtod React.createElement and gave the element
+in the specified manner , then it successfully ran
+
+
+
+
