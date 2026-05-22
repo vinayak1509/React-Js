@@ -1,0 +1,15 @@
+This lecture was about hooks....
+
+Why do we need hooks?
+sometimes we have a same variable used in multiple place in the UI...
+if we want to change the value of this variable at all places on single click, by classic JS
+it is very tough, so using hooks we can update a variable at every location on a single click
+
+
+learnt useEffect hook...
+this useEffect hook returns two values in which first is value and second is function
+ let [counter, setCounter] =useState(6) 
+
+setcounter is a function which is used to update the value of variable counter
+
+
